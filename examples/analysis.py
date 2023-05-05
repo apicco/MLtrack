@@ -1,5 +1,11 @@
+# append parent directory for testing mltrack
+# these two lines should be commented if mltrack
+# is properly installed
+import sys
+sys.path.append( '../' )
+
 from trajalign.average import load_directory
-from trajalign.automate import split_pt , ichose , save_directory
+from mltrack.automate import split_pt , ichose , save_directory
 
 filename = 'Traj_image.txt'
 path_trajectories = './TRAJECTORIES'
