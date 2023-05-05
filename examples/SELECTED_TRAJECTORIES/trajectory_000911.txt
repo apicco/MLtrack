@@ -1,0 +1,15 @@
+#     frames       t (s)     x (pxl)     y (pxl)           f         u02         u20         u11
+       420.0       210.0  125.830849   28.640924    1.741554    3.360148    5.219198    1.013163
+       421.0       210.5         nan         nan         nan         nan         nan         nan
+       422.0       211.0  129.015732    26.77989    1.075187     2.43401    2.685676   -0.540066
+       423.0       211.5  130.585953   28.876564    1.352855    4.010398    2.533073    0.247421
+       424.0       212.0  128.660614   31.214912    0.940145    3.985115    1.191504     0.05844
+#-----------------------------------------------------------------------------------------------
+# experiment: ./TRAJECTORIES
+# path: /Users/andreapicco/Google Drive/RESEARCH/TRACKING/Automated_Tracking/TEST/AP2_MOVIE_2/./TRAJECTORIES
+# file: trajectory_000911.txt
+# dataset: Traj_3_Macro_pDC_Left_Mid_AP2_GFP_LP_fr_600_i_0.5_Airyscan Processing_BG_BL_JTC.txt
+# t_unit: s
+# delta_t: 0.5
+# coord_unit: pxl
+# intensity_normalisation: None
