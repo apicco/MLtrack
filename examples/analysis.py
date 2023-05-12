@@ -4,13 +4,13 @@
 import sys
 sys.path.append( '../' )
 
-from trajalign.average import load_directory
+from mltrack.average import load_directory
 from mltrack.automate import split_pt , ichose , save_directory
 
 filename = 'Traj_image.txt'
 path_trajectories = './TRAJECTORIES'
 
-i0 = split_pt( filename , path_trajectories )
+#i0 = split_pt( filename , path_trajectories )
 
 tt = load_directory( 
 		path = path_trajectories , 
@@ -42,8 +42,10 @@ rtt = load_directory(
 		u11 = 13 ,
 		dataset = filename )
 
-output_tt , output_rtt = ichose( tt , rtt , ( 512 , 176 ) , 600 , fimax = False , f0 =  6 ) 
+#output_tt , output_rtt = ichose( tt , rtt , ( 512 , 176 ) , 600 , fimax = False , f0 =  6 ) 
+output_tt , output_rtt = ichose( tt , rtt , ( 512 , 176 ) , 600 , fimax = False , f0 =  0 ) 
 
+print( output_tt )
 save_directory( output_tt , './SELECTED_TRAJECTORIES/' )
 save_directory( output_rtt , './SELECTED_TRAJECTORIES/RTT/' )
 
