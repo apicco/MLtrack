@@ -2,13 +2,13 @@
 # these two lines should be commented if mltrack
 # is properly installed
 import sys
-sys.path.append( '../' )
+sys.path.append( '../../' )
 
 from mltrack.ctrlfuns import icheck
 from trajalign.average import load_directory
 
 # load trajectories
-path_trajectories = 'SELECTED_TRAJECTORIES/'
+path_trajectories = '../AUTOMATED_SELECTION/SELECTED_TRAJECTORIES/'
 
 tts = load_directory(
 		path = path_trajectories ,
@@ -25,7 +25,7 @@ tts = load_directory(
 # trajectories selected by ichose
 icheck( 
 	tts ,
-	path_movie = 'image_large.tif' ,
+	path_movie = '../Image/image_large.tif' ,
 	path_output = 'MANUAL_SELECTION' ,
 	r = 20 , 
     cmap = 'viridis' ,
