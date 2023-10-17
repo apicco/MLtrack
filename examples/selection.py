@@ -25,7 +25,7 @@ tts = load_directory(
 # trajectories selected by ichose
 icheck( 
 	tts ,
-	path_movie = 'image.tif' ,
+	path_movie = 'image_large.tif' ,
 	path_output = 'MANUAL_SELECTION' ,
 	r = 20 , 
     cmap = 'viridis' ,
